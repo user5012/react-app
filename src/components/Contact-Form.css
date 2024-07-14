@@ -1,0 +1,64 @@
+body {
+    background: linear-gradient(135deg, #2a2a72, #009ffd); /* Background gradient */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+  }
+  
+  .futuristic-box {
+    background: rgba(255, 255, 255, 0.1); /* Glassmorphism effect */
+    border-radius: 10px;
+    padding: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  
+  .futuristic-box label {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .futuristic-box input,
+  .futuristic-box textarea {
+    background: rgba(255, 255, 255, 0.1); /* Glassmorphism effect */
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .futuristic-box input::placeholder,
+  .futuristic-box textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .futuristic-box input:focus,
+  .futuristic-box textarea:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7); /* Neon effect */
+  }
+  
+  .futuristic-box textarea {
+    resize: none;
+  }
+  
+  .futuristic-box button {
+    background: linear-gradient(135deg, #ff0099, #493240); /* Neon button */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .futuristic-box button:hover {
+    box-shadow: 0 0 20px rgba(255, 0, 153, 0.7); /* Neon effect */
+  }
+  
