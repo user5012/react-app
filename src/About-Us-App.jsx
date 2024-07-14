@@ -1,17 +1,21 @@
 import { useState } from "react";
 import NavBar from "./components/NavBar";
+import Blog from "./components/blog";
 
-let nav = [
-  { label: "Home", link: "index.html" },
-  { label: "About us", link: "About-Us.html" },
-  { label: "Contact Us", link: "Contact.html" },
-];
+let title = "Who am I";
 
 function App() {
   return (
     <>
       <div>
-        <NavBar items={nav} />
+        <NavBar />
+        <Blog title={title} copyRight="">
+          I am <strong>Kyriakos</strong> and I am{" "}
+          <strong>
+            <u>15 years old!</u>
+          </strong>
+          <br />
+        </Blog>
       </div>
     </>
   );

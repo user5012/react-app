@@ -5,6 +5,7 @@ function NavBar() {
     { label: "Home", link: "/index.html" },
     { label: "About us", link: "/about-us.html" },
     { label: "Contact Us", link: "/contact.html" },
+    { label: "Blog", link: "/blog.html" },
   ];
 
   const isLinkActive = (link) => {
