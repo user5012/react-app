@@ -1,6 +1,6 @@
 import { useState } from "react";
-import NavBar from "./components/NavBar";
-import Blog from "./components/blog";
+import NavBar from "../../components/NavBar";
+import Blog from "../../components/Blog";
 
 let title = "Who am I";
 
