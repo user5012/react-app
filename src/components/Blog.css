@@ -11,7 +11,8 @@ body {
 .blog-container {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Adjusted to 100vh to ensure full viewport height */
+  /*min-height: 100vh;*/ /* Adjusted to 100vh to ensure full viewport height */
+  gap: 20px;
 }
 
 /* Main content styles */
@@ -49,10 +50,3 @@ body {
   line-height: 1.6;
 }
 
-/* Footer styles */
-.blog-footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 10px 0; /* Increased padding for better spacing */
-}

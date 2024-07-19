@@ -16,9 +16,6 @@ function Blog({
           <p className="post-content">{children}</p>
         </article>
       </main>
-      <footer className="blog-footer">
-        <p>{copyRight}</p>
-      </footer>
     </div>
   );
 }

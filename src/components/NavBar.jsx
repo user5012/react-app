@@ -15,8 +15,8 @@ function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light border-bottom border-body">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          Navbar
+        <a className="navbar-brand" href="./index.html">
+          WebsiteName
         </a>
         <button
           className="navbar-toggler"
